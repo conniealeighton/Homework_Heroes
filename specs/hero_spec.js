@@ -24,10 +24,24 @@ it('should have a favourite food', function(){
 })
 
 
-it('should be able to replenish heath', function(){
-  actual = hero.eatsFood();
-  assert.strictEqual(actual, 13);
-})
+
+// it('favourite food replenish heath', function(){
+//
+//   const food = new Food ("orange", 5)
+//   hero.eatsFood();
+//   actual = hero.health;
+//   assert.strictEqual(actual, 15);
+// })
+//
+//
+// it('favourite food replenish heath 1.5*', function(){
+//
+//   const food = new Food ("chocolate", 4)
+//   hero.eatsFood();
+//   actual = hero.health;
+//   assert.strictEqual(actual, 16);
+// })
+
 
 
 })

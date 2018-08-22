@@ -2,7 +2,7 @@ const Hero = function(name, health, favourite_food){
   this.name = name;
   this.health = health;
   this.favourite_food = favourite_food;
-
+  this.tasks = []
 }
 
 Hero.prototype.greet = function()
@@ -13,10 +13,11 @@ Hero.prototype.greet = function()
 Hero.prototype.eatsFood = function()
 {
   if (food.name === this.favourite_food) {
-    return this.health += (food.replenishment_value * 1.5)
+    return this.health += food.replenishment_value * 1.5
   }
   else {
   return this.health += food.replenishment_value}
+
 }
 
 

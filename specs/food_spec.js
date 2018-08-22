@@ -18,4 +18,5 @@ describe("Food", function()
     // assert
     assert.strictEqual(actual, 2);
   })
+
 })

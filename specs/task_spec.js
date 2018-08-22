@@ -1,6 +1,7 @@
 const assert = require('assert');
 const Task = require('../task');
 
+
 describe("Task", function()
 {   beforeEach(function(){ task = new Task ("Easy", 0, "chocolate")   });
 
@@ -41,5 +42,5 @@ it('should be able to be marked as completed', function(){
 //   // assert
 //   assert.strictEqual(actual, "gold");
 // })
-//
-// })
+
+})
