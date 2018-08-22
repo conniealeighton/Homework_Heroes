@@ -1,0 +1,16 @@
+{
+  "name": "Heroes_and_Rats_Week06",
+  "version": "1.0.0",
+  "main": "hero.js",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  },
+  "scripts": {
+    "test": "mocha specs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
